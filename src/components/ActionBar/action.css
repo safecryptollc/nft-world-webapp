@@ -1,0 +1,60 @@
+.action-menu {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+  transform: translateX(0%) translateY(0px) translateZ(0px);
+  display: flex;
+  flex-direction: column;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  z-index: 1;
+  max-height: calc(
+    100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+  );
+  background-color: #191e2b;
+  color: white;
+  box-shadow: var(--chakra-shadows-dark-lg);
+  max-width: var(--chakra-sizes-2xl);
+  overflow: hidden;
+  padding: 10px;
+  overflow: auto;
+}
+
+.close-block {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 10px;
+}
+.close-button {
+  font-size: 15px;
+  font-weight: bold;
+  color: "white";
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.action-menu-mobile {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  transform: translateX(0%) translateY(0px) translateZ(0px);
+  display: flex;
+  flex-direction: column;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  z-index: 1;
+  max-height: calc(
+    100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+  );
+  background-color: #191e2b;
+  color: white;
+  box-shadow: var(--chakra-shadows-dark-lg);
+  max-width: var(--chakra-sizes-2xl);
+  overflow: hidden;
+  padding: 10px;
+  overflow: auto;
+}

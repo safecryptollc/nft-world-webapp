@@ -1,0 +1,32 @@
+.search-outline {
+  height: 50px;
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid #24d1e9 !important;
+  display: flex;
+  flex-direction: row;
+}
+.search-outline .icon {
+  flex: 1;
+  color: #fff;
+  font-size: 18px;
+}
+.search-outline .text-input {
+  flex: 9;
+  background-color: inherit;
+  border: 0px;
+  z-index: 1;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+}
+.search-outline .text-input :focus {
+  border: 0px;
+  color: #fff;
+}
+.search-outline .center {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

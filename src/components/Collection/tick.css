@@ -1,0 +1,20 @@
+.tick-overview {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.tick-icon {
+  display: flex;
+  font-size: 24px;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+
+.tick-svg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.tick-svg-bg {
+  background: rgb(32, 129, 226);
+}

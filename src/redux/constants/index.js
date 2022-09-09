@@ -1,0 +1,16 @@
+const LOAD_NFT = "LOAD_NFT";
+const UPDATE_NFT = "UPDATE_NFT";
+const SET_NFT = "SET_NFT";
+
+
+const SET_COLLETION = "SET_COLLETION";
+
+const TOGGLE_MENU = "TOGGLE_MENU"
+
+export {
+    SET_COLLETION,
+    LOAD_NFT,
+    UPDATE_NFT,
+    SET_NFT,
+    TOGGLE_MENU
+}

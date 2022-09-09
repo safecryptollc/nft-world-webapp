@@ -1,0 +1,19 @@
+.ant-table-container {
+  background-color: #191e2b;
+  color: white;
+  margin-top: 40px;
+}
+.ant-table-thead > tr > th {
+  background-color: #191e2b;
+  color: white;
+  font-weight: bold;
+}
+.ant-table-row:hover {
+  color: #000 !important;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ant-table-content > table {
+  border-radius: 15px !important;
+}

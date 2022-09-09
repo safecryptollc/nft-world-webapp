@@ -1,0 +1,136 @@
+.container {
+  background-color: #191e2b;
+}
+.image-container {
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 500px;
+}
+.nft-image-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.nft-image {
+  height: 500px;
+  width: 500px;
+}
+.nft-name {
+  display: block;
+  margin: 24px 0px 12px;
+  font-family: var(--typography_headingFont);
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(246, 246, 246);
+}
+.nft-owned-by {
+  font-family: var(--typography_bodyFont);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  color: rgb(193, 193, 193);
+  display: block;
+  margin: 0px 0px 32px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.buy-block {
+  display: flex;
+  padding: 24px;
+  background-color: rgba(193, 193, 193, 0.15);
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  color: #fff;
+}
+.buy-price {
+  font-family: var(--typography_bodyFont);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+  font-style: normal;
+  color: #fff;
+  display: block;
+  word-break: break-word;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.buy-button {
+  appearance: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: var(--typography_headingFont);
+  font-size: 18px;
+  line-height: 1;
+  font-weight: var(--typography_headingFontWeight_bold);
+  min-height: calc(var(--measurements_gridUnit) * 13);
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 calc(var(--measurements_gridUnit) * 3.5) 0;
+  background: #17b2c8;
+  width: 100%;
+  padding: 24px;
+}
+.nft-description {
+  font-family: var(--typography_bodyFont);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  color: #fff;
+  display: block;
+  margin: 32px 0px 0px;
+  line-height: 24px;
+  word-break: break-word;
+  text-align: justify;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.attrib {
+  min-height: 100px;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 5px 5px 5px auto;
+  min-width: 150px;
+  border-radius: 15px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.attrib-triat {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.attrib-value {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
