@@ -4,10 +4,6 @@ This Project is a fork of Ethereum Boilerplate and demostrates how you can build
 
 
 # 🚀 Quick Start
-
-📄 Clone or fork `nft-world-webapp`:
-```sh
-git clone https://github.com/ethereum-boilerplate/nft-world-webapp.git
 ```
 💿 Install all dependencies:
 ```sh
